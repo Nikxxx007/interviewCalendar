@@ -1,9 +1,14 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+import {UpperLine} from "./components/UpperLine";
+import {BottomLine} from "./components/BottomLine";
+
+const App: React.FC = () => {
   return (
       <>
+          <UpperLine />
+
+          <BottomLine selected={false}/>
       </>
   );
 }
